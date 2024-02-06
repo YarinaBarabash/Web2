@@ -1,0 +1,631 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    height: 100px;
+
+    align-items: center;
+    justify-content: space-around;
+
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.title {
+    color: rgb(4, 11, 9);
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Graphik';
+    margin-bottom: 17px;
+
+}
+
+.highlight {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    align-items: center;
+}
+
+
+ .cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 15px;
+        color: rgb(5, 0, 11);
+      
+} 
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 15px;
+    width: 255px;
+    height: 257px;
+}
+
+.bold-text {
+    font-weight: bold;
+
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description {
+    margin-bottom: 90px;
+}
+
+.icon {
+    width: 61px;
+    height: 61px;
+}
+
+.prime-button {
+    background-color: #2091F9;
+    border-radius: 35px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color:  #FFFFFF;
+    transition: all 1s ease;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    border: none;
+    width: 100%;
+}
+
+.prime-button:hover{
+    background-color: #031526;   
+}
+
+.try-button{
+   max-width: 236px;
+}
+
+.subscribe-button{
+    background-color: #2091F9;
+    /* border: 1px #FFFFFF solid; */
+    border-radius: 35px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color:  #FFFFFF;
+    transition: all 1s ease;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    border: none;
+    width: 100%;
+    margin-left: 10px;
+    transition: all 1s ease;
+} 
+
+.subscribe-button:hover {
+    background-color: #031526;   
+}
+
+.email {
+    background-color: #E8E8E8;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 1px #cbc9c9 solid;
+    border-radius: 35px;
+}
+
+.title-text {
+    width: 335px;
+    height: 110px;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Graphik';
+    margin-bottom: 27px;
+}
+
+.descriptionorganaize {
+    width: 335px;
+    height: 110px;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'Graphik';
+    color: #374754;
+    margin-bottom: 70px;
+}
+
+.image-newsletter {
+    width: 660px;
+    height: 386px;
+}
+
+.organaize {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bloc-newsletter {
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 15px;
+    color: rgb(5, 0, 11);
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.fingertipstext {
+    width: 335px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Graphik';
+    margin-bottom: 27px;
+}
+
+.lightning-text {
+    width: 324px;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Graphik';
+    margin-bottom: 27px;
+    margin-top: 10px;
+}
+.newsletter {
+    width: 335px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Graphik';
+}
+
+.available {
+    width: 301px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Graphik';
+    margin-bottom: 36px;
+}
+
+.bloc-partners {
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    column-gap: 15px;
+    color: rgb(5, 0, 11);
+    align-items: center;
+}
+
+.partners {
+    width: 335px;
+    font-size: 48px;
+    font-weight: 55px;
+    font-family: 'Graphik';
+    margin-bottom: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.description-partners{
+    width: 532px;
+    font-size: 28px;
+    font-weight: 40px;
+    font-family: 'Graphik';
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.img-partners{
+    width: 1,075px;
+    height: 330px;
+    margin-bottom: 80px;
+}
+
+.bloc-testimonials {
+margin-top: 140px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+column-gap: 15px;
+color: rgb(5, 0, 11);
+align-items: center;
+}
+
+.testimonials {
+    width: 281px;
+    font-size: 48px;
+    font-weight: 55px;
+    font-family: 'Graphik';
+    margin-bottom: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;   
+}
+.IBM {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.ibmtext {
+    width: 967px;
+    font-size: 28px;
+    font-weight: 55px;
+    font-family: 'Graphik';
+    margin-bottom: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center; 
+}
+.discription {
+    width: 118px;  
+    margin-right: 13px;
+
+}
+.across {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 80px;
+    column-gap: 20px;
+}
+
+.button-testimonials{
+     background-color: #2091F9;
+     border: 1px #FFFFFF solid; 
+    border-radius: 35px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color:  #FFFFFF;
+    transition: all 1s ease;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    border: none;
+    margin-left: 10px; 
+    width: 276px;
+    text-align: center;
+    transition: all 1s ease;
+} 
+
+.button-testimonials:hover {
+    background-color: #031526;   
+}
+
+.bloc-offers {
+    background-color: #122a42;
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    column-gap: 15px;
+    color: rgb(42, 6, 86);
+    align-items: center;
+    }
+
+    .offers {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-bottom: 100px;
+        align-items: center;
+        }  
+
+  .pricing {
+    color: #ffffff;
+    width: 158px;
+    font-size: 48px;
+    font-weight: 55px;
+    font-family: 'Graphik';
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 27px;
+    margin-top: 100px;
+    }
+
+    .downpricingtext {
+        color: #ffffff;
+        width: 532px;
+        font-size: 28px;
+        font-weight: 55px;
+        font-family: 'Graphik';
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .offer {
+        width: 335px;
+        height: 607px;
+        background-color: rgb(243, 242, 245);
+        border-radius: 10px;
+    }
+    
+    .standart-text{
+        font-size: 20px;
+        font-weight: 700; 
+       text-align: center;
+       margin-bottom: 3px;
+       margin-top: 86px; 
+    }
+  
+    .standart{
+        margin-left: 50px;
+        width: 335px;
+        height: 607px;
+        background-color: #2091F9;
+        height: 693px;
+        align-items: center;
+        border-radius: 10px;
+        margin-right: 50px;   
+    }
+
+    .freetext  {
+        font-size: 20px;
+        font-weight: 700; 
+       text-align: center;
+       margin-bottom: 3px;
+       margin-top: 43px;   
+    }
+
+    .textacross {
+        width: 148px;
+        height: 46px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .pricetext{
+        height: 84px;
+        width: 55px;
+        font-size: 74px;
+        font-weight: 700;
+        font-family: 'Graphik';
+    }
+
+    .price {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    }
+
+    .dollar{
+    font-size: 20px;
+    font-weight: 700;
+    }
+
+    .dollartext{
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Graphik';
+    }
+    
+    .pricing-texts{
+        margin-bottom: 20px;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: 'Graphik';
+    }
+    .pricing-text{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+
+
+    .buttonOrderWhite{
+        background-color: #2091F9;
+        border: 1px #FFFFFF solid; 
+        border-radius: 35px;
+        color:  #FFFFFF;
+        transition: all 1s ease;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+        border: none;
+        width: 255px;
+        height: 56px;
+        text-align: center;
+        align-items: center;
+        margin-top: 70px;
+        justify-content: center;
+        display: flex;
+        transition: all 1s ease;
+    } 
+
+    .buttonOrderWhite:hover {
+        background-color: #031526;   
+    }
+    
+    .buttonOrderBlue{
+        background-color: rgb(255, 255, 255);
+        border: 1px #FFFFFF solid; 
+        border-radius: 35px;
+        color:   #2091F9;
+        transition: all 1s ease;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+        border: none;
+        width: 255px;
+        height: 56px;
+        text-align: center;
+        align-items: center;
+        margin-top: 70px;
+        justify-content: center;
+        display: flex;
+        transition: all 1s ease;
+    }
+
+    .buttonOrderBlue:hover {
+        background-color: #031526;   
+    }
+
+    .contact-text{
+        margin-top: 213px;
+        font-size: 48px;
+        font-weight: 400;
+        font-family: 'Graphik';
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-description{
+        margin-top: 213px;
+        font-size: 28px;
+        font-weight: 400;
+        font-family: 'Graphik';
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 532px;
+        margin: auto;
+        margin-top: 17px;
+        text-align: center;
+    }
+
+    .form {
+        width: 453px;
+        padding: 50px;
+        background-color: rgb(255, 255, 255);
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: 0px 13px 19px 0px #00000012;
+        margin-left: 106px;
+        margin-right: 50px;
+        margin-top: 50px;
+    }
+
+    .common {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .textcontact{
+        font-size: 20px;
+        font-weight: 700;
+        font-family: 'Graphik';
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 52px;
+        margin-bottom: 70px;
+    }
+
+    .name {
+    background-color: #E8E8E8;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 1px #cbc9c9 solid;
+    border-radius: 35px;
+    width: 353px;
+    height: 34px;
+    margin-top: 40px;
+    }
+
+    .inputs{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .name-email {
+        background-color: #E8E8E8;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border: 1px #cbc9c9 solid;
+        border-radius: 35px;
+        width: 353px;
+        margin-top: 15px; 
+        height: 34px; 
+    }
+    .massage {
+        margin-top: 45px;
+        background-color: #E8E8E8;
+        width: 353px;   
+        height: 193px;
+    }
+    .buttonsends {
+         background-color: #2091F9;
+        border: 1px #FFFFFF solid; 
+        border-radius: 35px;
+        color:   rgb(255, 255, 255);
+        transition: all 1s ease;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+        border: none;
+        width: 255px;
+        height: 56px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        transition: all 1s ease;
+    }
+
+    .buttonsends:hover {
+    background-color: #031526;   
+    }
+    
+    
+.contact-info-item{
+    display: flex;
+        flex-direction: row; 
+        align-items: center;
+        margin-bottom: 38px;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.contact-bloc{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        width: 293px;
+        text-align: center;
+}
+
+.img-contact{
+    margin-bottom: 10px;
+}
+.block-contact{
+    margin-bottom: 15px;
+}
